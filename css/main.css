@@ -1,0 +1,337 @@
+@import "./reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* font-family: 'Poppins', sans-serif; */
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+}
+.container {
+  margin: 0 auto;
+  padding: 0;
+}
+.nav-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav {
+  background: white;
+  padding: 20px 0 20px 0;
+}
+.nav-links {
+  display: flex;
+  gap: 27px;
+}
+.nav-link {
+  color: #22262a;
+  font-weight: 400;
+  font-size: 18px;
+}
+.logo {
+  font-weight: 700;
+  font-size: 27px;
+  color: #22262a;
+  margin: 20px 25px 21px 100px;
+}
+.shopping-card {
+  margin-right: 100px;
+}
+.header-img {
+  width: 100%;
+  height: 745px;
+}
+.header-text {
+  position: absolute;
+  width: 102px;
+  left: 800px;
+  top: 460px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #22262a;
+}
+.header-title {
+  position: absolute;
+  width: 453px;
+  height: 120px;
+  left: 800px;
+  top: 480px;
+  font-weight: 700;
+  font-size: 80px;
+  color: #22262a;
+}
+.header-text2 {
+  position: absolute;
+  width: 409px;
+  height: 27px;
+  left: 800px;
+  top: 575px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #22262a;
+}
+.header-button {
+  position: absolute;
+  width: 147px;
+  height: 35px;
+  left: 800px;
+  top: 630px;
+  color: white;
+  background: #22262a;
+}
+.header-button-2 {
+  position: absolute;
+  width: 147px;
+  height: 35px;
+  left: 980px;
+  top: 630px;
+  color: white;
+  background: #22262a;
+}
+.images {
+  margin-top: 123px;
+  margin-left: 131px;
+}
+.section-img {
+  width: 551px;
+  height: 286.84px;
+}
+.section-img-1 {
+  margin-top: -574px;
+  margin-left: 712px;
+  width: 552px;
+  height: 574px;
+}
+.images-2 {
+  margin-left: 131px;
+  margin-top: 22px;
+}
+.section-img-3 {
+  margin-left: 22px;
+}
+.section-women-title {
+  text-align: center;
+  margin-top: 111px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #22262a;
+}
+.section-women-text {
+  text-align: center;
+  margin-bottom: 72px;
+  color: #22262a;
+}
+.fashion-text {
+  margin-top: 38px;
+  font-weight: 300;
+  font-size: 15px;
+}
+.fashion-title {
+  margin-top: 3px;
+  font-weight: 600;
+  font-size: 15px;
+}
+.span-price {
+  margin-top: 3px;
+  text-decoration: line-through;
+}
+.span-stock {
+  margin-top: 3px;
+  margin-left: 30px;
+  color: red;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+  margin-top: 65px;
+}
+.mens-cards {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+}
+.section-men-title {
+  text-align: center;
+  margin-top: 111px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #22262a;
+}
+.section-men-text {
+  text-align: center;
+  margin-bottom: 72px;
+  color: #22262a;
+}
+.section-styles-title {
+  text-align: center;
+  margin-top: 110px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.section-styles-text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+}
+.styles-cards {
+  display: flex;
+  margin-bottom: 121px;
+}
+.styles-card {
+  margin-top: 149px;
+  margin-left: 128px;
+  width: 552px;
+  height: 602px;
+}
+.styles-card-2 {
+  margin: 60px 0 0 29px;
+}
+.styles-text {
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 174px;
+  margin-left: 105px;
+  text-decoration: underline;
+  color: #22262a;
+}
+.styles-card-3 {
+  border: 50px;
+  margin-left: -200px;
+  margin-top: 470px;
+}
+.styles-card-4 {
+  margin-left: -220px;
+  margin-top: 445px;
+}
+.header-text-bottom {
+  position: absolute;
+  left: 128px;
+  top: 4346px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #22262a;
+}
+.header-title-bottom {
+  position: absolute;
+  left: 128px;
+  top: 4368px;
+  font-weight: 700;
+  font-size: 80px;
+  color: #22262a;
+}
+.header-button-bottom {
+  position: absolute;
+  width: 214px;
+  height: 35px;
+  left: 128px;
+  top: 4493px;
+  color: white;
+  background: #22262a;
+}
+.communication {
+  margin-top: 115px;
+  margin-left: 128px;
+  margin-bottom: 201px;
+  width: 406px;
+  height: 290px;
+}
+.footer-logo {
+  margin-bottom: 17px;
+  font-weight: 700;
+  font-size: 25px;
+  color: #22262a;
+}
+.footer-text {
+  margin-bottom: 41px;
+  width: 406px;
+  height: 69px;
+  font-weight: 400;
+  font-size: 15px;
+  color: #22262a;
+}
+.footer-text-2 {
+  margin-left: 10px;
+  font-weight: 400;
+  font-size: 15px;
+  color: #22262a;
+}
+.footer-text-3 {
+  margin-bottom: 7px;
+  font-weight: 400;
+  font-size: 15px;
+  text-decoration: underline;
+  color: #22262a;
+}
+.footer-text-4 {
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 15px;
+  color: #22262a;
+}
+.flex-icon {
+  display: flex;
+  height: 23px;
+  margin-bottom: 16px;
+}
+.footer-icon {
+  margin-top: 3px;
+  width: 15px;
+  height: 15px;
+}
+.container-flex {
+  display: flex;
+}
+.email {
+  width: 532px;
+  height: 385px;
+  margin-top: 115px;
+  margin-left: 200px;
+}
+.email-title {
+  font-weight: 700;
+  font-size: 25px;
+}
+.email-address {
+  margin-top: 24px;
+  width: 532px;
+  height: 45px;
+  color: #22262a;
+}
+.support-container-1 {
+  margin-right: 88px;
+}
+.support-container-2 {
+  margin-right: 88px;
+}
+.support-title {
+  margin-top: 70px;
+  margin-bottom: 27px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #22262a;
+}
+.support-text {
+  margin-bottom: 21px;
+  font-weight: 400;
+  font-size: 15px;
+  color: #22262a;
+}
+.bottom {
+  width: 100%;
+  height: 93px;
+  background: #e7f5f8;
+}
+.bottom-text-2 {
+  display: flex;
+  justify-content: space-around;
+  padding: 35px 0 35px 0;
+  font-weight: 400;
+  font-size: 15px;
+  color: #22262a;
+}
